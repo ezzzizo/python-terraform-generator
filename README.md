@@ -44,7 +44,6 @@ This Python project provides a command-line utility to:
    ```
 
 2. **Example Output**:
-   ```
 <img src="https://github.com/user-attachments/assets/1dbd163a-7b89-434d-9aa3-7e2d32d192fd" alt="output">
 
 3. **Using the Generated Terraform File**:
