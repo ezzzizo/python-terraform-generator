@@ -16,10 +16,10 @@ This Python project provides a command-line utility to:
 
 ## Technologies Used
 
-| <a href="https://aws.amazon.com/"><img src="https://github.com/user-attachments/assets/144360c4-afd9-42e5-a567-931ac06fdf59" width="40" height="47"></a> 
-| <a href="https://www.terraform.io/"><img src="https://github.com/user-attachments/assets/11af6368-ed62-4ccc-8bcc-c7ea4bf4e535" alt="Terraform" width="40" height="47"></a> 
-| <a href="https://www.python.org/"><img src="https://github.com/user-attachments/assets/ce74e0f0-5497-44f0-9a82-4c5bb87562c8" alt="Python" width="40" height="47"></a> 
-| <a href="https://boto3.amazonaws.com/v1/documentation/api/latest/index.html"><img src="https://raw.githubusercontent.com/boto/boto3/master/docs/source/_static/images/boto3-logo.png" alt="Boto3" width="40" height="47"></a> |
+| <a href="https://aws.amazon.com/"><img src="https://github.com/user-attachments/assets/144360c4-afd9-42e5-a567-931ac06fdf59" width="45" height="52"></a> 
+| <a href="https://www.terraform.io/"><img src="https://github.com/user-attachments/assets/11af6368-ed62-4ccc-8bcc-c7ea4bf4e535" alt="Terraform" width="45" height="52"></a> 
+| <a href="https://www.python.org/"><img src="https://github.com/user-attachments/assets/ce74e0f0-5497-44f0-9a82-4c5bb87562c8" alt="Python" width="50" height="47"></a> 
+| <a href="https://boto3.amazonaws.com/v1/documentation/api/latest/index.html"><img src="https://github.com/user-attachments/assets/308794da-0ba1-4e6e-b387-af60aafbe098" alt="Boto3" width="40" height="47"></a> |
 |-------|-------|-------|-------|
 
 ## Installation
