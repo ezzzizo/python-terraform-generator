@@ -16,7 +16,9 @@ This Python project provides a command-line utility to:
 
 ## Technologies Used
 
-| [![AWS](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/aws_vector.svg)](https://aws.amazon.com/) | [![Terraform](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/terraform_vector.svg)](https://www.terraform.io/) | [![Python](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/python_vector.svg)](https://www.python.org/) | [![Boto3](https://raw.githubusercontent.com/boto/boto3/master/docs/source/_static/images/boto3-logo.png)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) |
+| ![aws-logo-logo-png-transparent](https://github.com/user-attachments/assets/144360c4-afd9-42e5-a567-931ac06fdf59)(https://aws.amazon.com/) | ![file-type-terraform-icon-455x512-csyun60o](https://github.com/user-attachments/assets/11af6368-ed62-4ccc-8bcc-c7ea4bf4e535)(https://www.terraform.io/https://www.terraform.io/)
+ | ![Python-Emblem](https://github.com/user-attachments/assets/ce74e0f0-5497-44f0-9a82-4c5bb87562c8)(https://www.python.org/) | ![Microsoft VisualStudio Services Icons](https://github.com/user-attachments/assets/576df787-7714-4f50-ad38-506f1ab8d8be)
+(https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) |
 |-------|-------|-------|-------|
 
 
