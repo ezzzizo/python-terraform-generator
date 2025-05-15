@@ -11,7 +11,6 @@ A Python command-line tool that helps you select AWS regions, list existing VPCs
 
 ## output
 
-![output](https://github.com/user-attachments/assets/1dbd163a-7b89-434d-9aa3-7e2d32d192fd)
 <img src="https://github.com/user-attachments/assets/1dbd163a-7b89-434d-9aa3-7e2d32d192fd" alt="output">
 
 ## Getting Started
