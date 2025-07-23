@@ -7,13 +7,13 @@ This command-line tool provides a simple and effective way to interact with your
 
 The script allows you to:
 
-1- Select an AWS region.
+1. Select an AWS region.
 
-2- List existing EC2 instances and VPCs for a quick overview of your resources.
+2. List existing EC2 instances and VPCs for a quick overview of your resources.
 
-3- Create a new vpc.tf file with a provider block and a resource to create a new VPC.
+3. Create a new vpc.tf file with a provider block and a resource to create a new VPC.
 
-4- Import the configurations of existing VPCs into a Terraform file, making them easier to manage using an Infrastructure as Code approach.
+4. Import the configurations of existing VPCs into a Terraform file, making them easier to manage using an Infrastructure as Code approach.
 
 # Features
 
@@ -74,11 +74,11 @@ The script allows you to:
    ```
    The script will guide you through the following prompts:
    
-1-  Select the AWS region you want to work in.
+1.  Select the AWS region you want to work in.
 
-2- The tool will automatically list the existing EC2 instances and VPCs in that region.
+2. The tool will automatically list the existing EC2 instances and VPCs in that region.
 
-3- Choose whether you want to:
+3. Choose whether you want to:
 
 - Configure a new VPC: You will be prompted for a CIDR block and a name.
 
