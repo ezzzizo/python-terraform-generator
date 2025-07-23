@@ -86,7 +86,7 @@ The script allows you to:
 The resulting Terraform configuration will be saved in a vpc.tf file in the project's root directory.
 
 2. **Example Output**:
-<img src="https://github.com/user-attachments/assets/22705478-b57a-495e-ae59-a79468daf7e1" alt="output">
+<img src="https://github.com/user-attachments/assets/22705478-b57a-495e-ae59-a79468daf7e1" alt="output" width="450" height="590">
 
 3. **Using the Generated Terraform File**:
    - Ensure Terraform is installed (`terraform` command available).
