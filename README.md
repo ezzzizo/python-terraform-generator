@@ -25,15 +25,17 @@ The script allows you to:
 
 ## Project Structure
 
-├── **main.py**                _# Main entry point for the application._     
-├── **utils/**   
-│   ├── **__init__.py **       _# Makes 'utils' a Python package._   
-│   ├── **aws_region.py**      _# Handles AWS region selection logic._   
-│   ├── **list_ec2.py**        _# Contains logic for listing EC2 instances._     
-│   ├── **list_vpcs.py**        _# Contains logic for listing AWS VPCs._  
-│   ├── **tf_newVPC_builder.py**  _# Builds Terraform config for a new VPC._  
-│   └── **terraform_builder.py**  _# Builds Terraform config for existing resources._     
-└── **vpc.tf**                    _# Output file for the generated Terraform code (auto-created)._     
+<pre>
+├── main.py                 # Main entry point for the application.
+├── utils/
+│   ├── __init__.py         # Makes 'utils' a Python package.
+│   ├── aws_region.py       # Handles AWS region selection logic.
+│   ├── list_ec2.py         # Contains logic for listing EC2 instances.
+│   ├── list_vpcs.py        # Contains logic for listing AWS VPCs.
+│   ├── tf_newVPC_builder.py  # Builds Terraform config for a new VPC.
+│   └── terraform_builder.py  # Builds Terraform config for existing resources.
+└── vpc.tf                    # Output file for the generated Terraform code (auto-created).
+</pre>         
 
 ## Prerequisites
 
