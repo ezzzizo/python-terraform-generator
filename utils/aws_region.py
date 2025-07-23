@@ -5,12 +5,11 @@ class NumberOutOfRangeError(Exception):
     """This exception is raised when a user has provided incorrect choice."""
 
 
-def get_selected_region(user_input: int, selected_region: str | None = None) -> str:
-    """Selects an AWS region based on the user's input.
+def get_selected_region(user_input: int) -> str:
+    """Converts a numeric choice into an AWS region string.
 
     Args:
         user_input (int): User's input, expected to be a number from 1 to 4.
-        selected_region (str | None, optional): The selected region. Defaults to None.
 
     Raises:
         NumberOutOfRangeError: triggered when users input is not one of 4 listed regions
@@ -22,17 +21,13 @@ def get_selected_region(user_input: int, selected_region: str | None = None) -> 
     # Selecting on of 4 regions based on user's input
     match user_input:
         case 1:
-            selected_region = "us-east-1"
-            return selected_region
+            return "us-east-1"
         case 2:
-            selected_region = "us-east-2"
-            return selected_region
+            return "us-east-2"
         case 3:
-            selected_region = "us-west-1"
-            return selected_region
+            return "us-west-1"
         case 4:
-            selected_region = "us-west-2"
-            return selected_region
+            return "us-west-2"
         case _:
             raise NumberOutOfRangeError(
                 f"Input '{user_input}' is not one of the listed regions (1–4)."
@@ -41,10 +36,21 @@ def get_selected_region(user_input: int, selected_region: str | None = None) -> 
 
 # taking user's input
 def region_selector() -> str:
-    """Prompts the user to choose one of four listed AWS regions.
+    """Interactively prompts a user to select an AWS region.
+
+    This function displays a menu of choices and handles user input validation,
+    re-prompting on errors until a valid selection is made.
+
+    Side Effects:
+        - Prints the region selection menu to the console.
+        - Prints error messages to the console for invalid input.
 
     Returns:
-        str: The selected AWS region as a string.
+        str: The selected AWS region name (e.g., "us-east-1").
+
+    Raises:
+        ValueError: Handled internally if the user provides non-integer input.
+        NumberOutOfRangeError: Handled internally if the user's choice is invalid.
     """
     while True:
         try:
