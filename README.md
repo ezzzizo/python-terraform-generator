@@ -32,8 +32,8 @@ The script allows you to:
 │   ├── aws_region.py       # Handles AWS region selection logic.
 │   ├── list_ec2.py         # Contains logic for listing EC2 instances.
 │   ├── list_vpcs.py        # Contains logic for listing AWS VPCs.
-│   ├── tf_newVPC_builder.py  # Builds Terraform config for a new VPC.
-│   └── terraform_builder.py  # Builds Terraform config for existing resources.
+│   ├── new_vpc_builder.py  # Builds Terraform config for a new VPC.
+│   └── Provider_and_fetchd_VPC.py  # Builds Terraform config for existing resources.
 └── vpc.tf                    # Output file for the generated Terraform code (auto-created).
 </pre>         
 
