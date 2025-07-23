@@ -79,12 +79,9 @@ The script allows you to:
 2. The tool will automatically list the existing EC2 instances and VPCs in that region.
 
 3. Choose whether you want to:
-
-- Configure a new VPC: You will be prompted for a CIDR block and a name.
-
-- Configure the fetched VPCs: The tool will create resource blocks for all discovered VPCs.
-
-- Exit.
+   - Configure a new VPC: You will be prompted for a CIDR block and a name.
+   - Configure the fetched VPCs: The tool will create resource blocks for all discovered VPCs.
+   - Exit.
 
 The resulting Terraform configuration will be saved in a vpc.tf file in the project's root directory.
 
